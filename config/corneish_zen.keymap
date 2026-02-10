@@ -210,6 +210,14 @@
             bindings = <&kp LG(V)>;
             layers = <0>;
         };
+
+        // Switch window ⌘`: E + R (positions 2+3)
+        combo_win_switch {
+            timeout-ms = <50>;
+            key-positions = <2 3>;
+            bindings = <&kp LG(GRAVE)>;
+            layers = <0>;
+        };
     };
 
     // ──────────────────────────────────────────────
