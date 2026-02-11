@@ -219,6 +219,14 @@
             layers = <0>;
         };
 
+        // Right Option: Y + U (positions 5+6)
+        combo_ralt {
+            timeout-ms = <50>;
+            key-positions = <5 6>;
+            bindings = <&sk RALT>;
+            layers = <0>;
+        };
+
         // Zoom in ⌘=: U + I (positions 6+7)
         combo_zoom_in {
             timeout-ms = <50>;
