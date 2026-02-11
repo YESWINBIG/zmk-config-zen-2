@@ -220,10 +220,11 @@
         };
 
         // Right Option: Y + U (positions 5+6)
+        // Plain keypress for voice transcription activation
         combo_ralt {
             timeout-ms = <50>;
             key-positions = <5 6>;
-            bindings = <&sk RALT>;
+            bindings = <&kp RALT>;
             layers = <0>;
         };
 
