@@ -218,6 +218,22 @@
             bindings = <&kp LG(GRAVE)>;
             layers = <0>;
         };
+
+        // Zoom in ⌘=: U + I (positions 6+7)
+        combo_zoom_in {
+            timeout-ms = <50>;
+            key-positions = <6 7>;
+            bindings = <&kp LG(EQUAL)>;
+            layers = <0>;
+        };
+
+        // Zoom out ⌘-: I + O (positions 7+8)
+        combo_zoom_out {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&kp LG(MINUS)>;
+            layers = <0>;
+        };
     };
 
     // ──────────────────────────────────────────────
