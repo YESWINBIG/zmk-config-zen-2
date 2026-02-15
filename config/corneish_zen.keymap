@@ -418,7 +418,7 @@
         // │  Home row = white keys (C D E F G A B) + accidentals       │
         // │  Bottom row = durations + articulations                     │
         // │                                                              │
-        // │   C♯    D♯    ·    F♯    G♯  │  A♯    ·    8th   qtr  half │
+        // │   C♯    D♯    Q    F♯    G♯  │  A♯    V    8th   qtr  half │
         // │   C     D     E     F     G  │  A     B     ♮     ♭    ♯   │
         // │  32nd  16th whole  dot    R  │  T     S    [acc  ]stac ;tup│
         // │             EXIT  [L1]  SPC  │ ENT  [L2]  BSPC             │
@@ -428,7 +428,7 @@
         dorico_layer {
             display-name = "DORICO";
             bindings = <
-&sharp_c   &sharp_d  &none    &sharp_f  &sharp_g      &sharp_a  &none     &kp N5    &kp N6    &kp N7
+&sharp_c   &sharp_d  &kp Q    &sharp_f  &sharp_g      &sharp_a  &kp V     &kp N5    &kp N6    &kp N7
 &kp C      &kp D     &kp E    &kp F     &kp G         &kp A     &kp B     &kp N0    &kp MINUS &kp EQUAL
 &kp N3     &kp N4    &kp N8   &kp DOT   &kp R         &kp T     &kp S     &kp LBKT  &kp RBKT  &kp SEMI
                       &tog 5   &mo 1     &kp SPACE     &kp RET   &mo 2     &bspc_del
